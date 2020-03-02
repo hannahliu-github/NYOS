@@ -46,6 +46,6 @@ def get_parking_tickets(page_size, num_pages=None, output=None):
                 outputFile.write(str(line)+',\n')
                 
             # write the last line without a comma
-            outputFile.write(str(line)+']')
+            outputFile.write(str(data[-1])+']')
     
     return
