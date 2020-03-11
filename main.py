@@ -36,5 +36,5 @@ if __name__ == "__main__":
     es = load_data(data,es,index='haha',doc_type='hey')
 
     # test query by id
-    res = es.get(id=1,index='haha',doc_type='hey')
-    print(res['_source'])
+    #res = es.get(id=1,index='haha',doc_type='hey')
+    #print(res['_source'])
